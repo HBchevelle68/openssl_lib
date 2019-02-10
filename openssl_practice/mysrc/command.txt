@@ -1,0 +1,2 @@
+gcc mysrc/sample.c -Bstatic -Iinclude/ -lssl -lcrypto -Llibcrypto.a -Llibssl.a -o mysrc/sample
+gcc sample.c -Bstatic -I../include/ -lssl -lcrypto -o sample
